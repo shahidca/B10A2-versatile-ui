@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font-body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.display-hidden{
+    display: none;
+}
+.mobile-bar{
+    display: none;
+}
+/* some common class name here  */
+.display-flex{
+display: flex;
+}
+
+/* header part style start here */
+#header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(28, 27, 27, 0.884) 100%);
+}
+.nav-bar{
+justify-content: space-between;
+align-items: center;
+padding-top: 1rem;
+margin-left: 11.87rem;
+margin-right: 11.87rem;
+}
+.nav-title{
+color: rgb(230, 83, 60);
+font-size: 2.25rem;
+font-weight: 800;
+}
+.nav-item{
+color: rgb(255, 255, 255);
+font-size: 1.12rem;
+font-weight: 400;
+gap: 47px;
+}
+.ul-color{
+border-radius: 46px;
+background: rgb(230, 83, 60);
+padding: 4px;
+}
+.nav-item li{
+list-style-type: none;
+}
+/* Get body in shape & stay healthy start style here */
+.banner{
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: center;
+}
+.banner-content{
+    margin-left: 11.87rem;
+}
+.banner-img{
+    margin-right: 13.37rem;
+}
+.banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 4.87rem;
+    font-weight: 900;
+    width: 520px;
+}
+.banner-discription{
+color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+width: 520px;
+height: 48px;
+margin-top: 1rem;
+}
+.btn{
+    color: rgb(255, 255, 255);
+font-size: 1.12rem;
+font-weight: 600;
+padding: 16px 40px 16px 40px;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+background: rgb(11, 10, 10);
+margin-top: 1rem;
+margin-left: 8px;
+}
+.btn-2{
+background: rgb(230, 83, 60);
+}
+.img-side-box{
+width: 193px;
+height: 98px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.img-side-box p{
+color: rgb(255, 255, 255);
+font-size: 2.5rem;
+font-weight: 900;  
+}
+.img-side-box small{
+ color: rgba(255, 255, 255, 0.65);
+font-size: .81rem;
+font-weight: 400;
+margin-top: 5px;
+}
+.cercile{
+    width: 40px;
+height: 40px;
+background: rgb(230, 83, 60);
+border-radius: 20px;
+}
+.cercile-center{
+    display: flex;
+    flex-direction: column;
+}

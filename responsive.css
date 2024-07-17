@@ -1,0 +1,23 @@
+/* mobile responsive here */
+@media screen and (max-width:576px) {
+    .nav-title{
+
+    }
+    .nav-item {
+        display: none;
+    }
+    .mobile-bar{
+        display: block;
+        margin-left: 99%;
+        width: 18px;
+        color: aliceblue;
+      
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 1rem;
+    }
+    
+}
