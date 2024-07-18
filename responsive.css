@@ -19,6 +19,41 @@
         margin-left: 1rem;
     }
     /* Get body in shape & stay healthy start style here */
-   
-    
+    .banner-container{
+        flex-direction: column;
+    }
+    .text-container{
+        margin-top: 51px;
+        margin-left: 20px;
+    }
+    .img-container{
+        position: relative;
+    }
+    .header-title{
+font-size: 2.25rem;
+font-weight: 900;
+text-align: left;
+margin: 28px 0px;
+width: 285px;
+    }
+    .header-description{
+        width: 274px;
+        margin: 28px 0px;
+    }
+    .btn{
+        padding: 15px 20px;
+    }
+    .video-tutorial{
+position: absolute;
+width: 200px;
+padding: 5px 10px;
+top: 262px;
+left: 40px;
+    }
+    .free-workout-videos{
+        width: 160px;
+        padding: 0px 0px;
+        position: absolute;
+        
+    }
 }
