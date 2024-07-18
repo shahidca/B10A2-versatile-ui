@@ -1,8 +1,6 @@
 /* mobile responsive here */
 @media screen and (max-width:576px) {
-    .nav-title{
-
-    }
+  
     .nav-item {
         display: none;
     }
@@ -10,8 +8,9 @@
         display: block;
         margin-left: 99%;
         width: 18px;
-        color: aliceblue;
-      
+        color: aliceblue; 
+        width: 24px;
+        height: 24px;
     }
     .nav-bar{
         display: flex;
@@ -19,5 +18,7 @@
         align-items: center;
         margin-left: 1rem;
     }
+    /* Get body in shape & stay healthy start style here */
+   
     
 }

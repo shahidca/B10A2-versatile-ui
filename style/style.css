@@ -17,6 +17,7 @@
 .mobile-bar{
     display: none;
 }
+
 /* some common class name here  */
 .display-flex{
 display: flex;
@@ -43,6 +44,11 @@ color: rgb(255, 255, 255);
 font-size: 1.12rem;
 font-weight: 400;
 gap: 47px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+padding: 4px;
+align-items: center;
+margin: 0px 10px;
 }
 .ul-color{
 border-radius: 46px;
@@ -53,75 +59,99 @@ padding: 4px;
 list-style-type: none;
 }
 /* Get body in shape & stay healthy start style here */
-.banner{
-    justify-content: space-between;
-    margin-top: 80px;
-    align-items: center;
+.banner-container{
+justify-content: space-between;
 }
-.banner-content{
-    margin-left: 11.87rem;
+.text-container{
+    margin-top: 97px;
+    margin-left: 190px;
 }
-.banner-img{
-    margin-right: 13.37rem;
+.img-container{
+    margin-top: 32px;
+    margin-right: 214px;
+    position: relative;
 }
-.banner-title{
-    color: rgb(255, 255, 255);
-    font-size: 4.87rem;
-    font-weight: 900;
+.header-title{
     width: 520px;
+    color: rgb(255, 255, 255);
+font-size: 4.875rem;
+font-weight: 900;
+text-align: left;
+margin: 28px 0px;
 }
-.banner-discription{
-color: rgba(255, 255, 255, 0.5);
+.header-description{
+    width: 520px;
+    color: rgba(255, 255, 255, 0.5);
 font-size: 1rem;
 font-weight: 400;
 line-height: 24px;
-width: 520px;
-height: 48px;
-margin-top: 1rem;
+text-align: left;
+margin: 28px 0px;
 }
 .btn{
     color: rgb(255, 255, 255);
-font-size: 1.12rem;
+font-size: 1.125rem;
 font-weight: 600;
 padding: 16px 40px 16px 40px;
-border: 1px solid rgb(255, 255, 255);
+margin: 0px 10px;
 border-radius: 42px;
-background: rgb(11, 10, 10);
-margin-top: 1rem;
-margin-left: 8px;
-}
-.btn-2{
 background: rgb(230, 83, 60);
+border: none;
 }
-.img-side-box{
-width: 193px;
-height: 98px;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-backdrop-filter: blur(20px);
-background: rgba(255, 255, 255, 0.1);
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.btn-01{
+    border: 1px solid rgb(255, 255, 255);
+border-radius: 42px;
+background: black;
 }
-.img-side-box p{
-color: rgb(255, 255, 255);
-font-size: 2.5rem;
-font-weight: 900;  
-}
-.img-side-box small{
- color: rgba(255, 255, 255, 0.65);
-font-size: .81rem;
-font-weight: 400;
-margin-top: 5px;
-}
-.cercile{
+.red-cercile{
     width: 40px;
 height: 40px;
 background: rgb(230, 83, 60);
 border-radius: 20px;
 }
-.cercile-center{
+.video-tutorial{
+    width: 206px;
     display: flex;
-    flex-direction: column;
+    gap: 12px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+padding: 20px 23px;
+position: absolute;
+top: 416px;
+right: 256px;
+}
+.video-tutorial p{
+    color: rgb(250, 250, 249);
+    font-size: 1.5rem;
+    font-weight: 900;
+ 
+}
+.video-tutorial small{
+    color: rgba(239, 237, 232, 0.65);
+font-size: 1rem;
+font-weight: 400;
+}
+.free-workout-videos{
+    width: 206px;
+    padding: 17px 24px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+text-align: center;
+position: absolute;
+bottom: 357px;
+left: 230px;
+}
+.free-workout-videos p{
+    color: rgb(255, 255, 255);
+font-size: 2.5rem;
+font-weight: 900;
+}
+.free-workout-videos small{
+    color: rgba(255, 255, 255, 0.65);
+font-size: 0.8125rem;
+font-weight: 400;
 }
