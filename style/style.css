@@ -11,6 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(28, 27, 27, 0.884) 100%);
+}
 .display-hidden{
     display: none;
 }
@@ -22,11 +25,14 @@
 .display-flex{
 display: flex;
 }
+.text-primary{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 1rem;
+font-weight: 400;
+line-height: 24px;
+}
 
 /* header part style start here */
-#header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(28, 27, 27, 0.884) 100%);
-}
 .nav-bar{
 justify-content: space-between;
 align-items: center;
@@ -154,4 +160,49 @@ font-weight: 900;
     color: rgba(255, 255, 255, 0.65);
 font-size: 0.8125rem;
 font-weight: 400;
+}
+/* <!-- Change Your Habits Start Codding Here --> */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.text-area{
+    text-align: center;
+    width: 671px;
+}
+.img-container{
+    display: flex;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 58px;
+}
+.habit-title{
+    color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+}
+.fitness-img img{
+border-radius: 90px;
+}
+.img-name{
+    color: rgb(255, 255, 255);
+font-size: 1.125rem;
+font-weight: 600;
+}
+.fitness-img{
+    width: 231px;
+height: 274px;
+text-align: center;
+}
+.fitness-img h4{
+margin-top: 10px;
+}
+.fitness-img p{
+margin-top: 10px;
+}
+.habit-description{
+    margin-top: 14px;
 }
