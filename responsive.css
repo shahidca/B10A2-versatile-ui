@@ -57,9 +57,19 @@ left: 40px;
 
     }
     /* <!-- Change Your Habits Start Codding Here --> */
+    .habit-title{
+font-size: 2rem;
+    }
+    .text-area{
+        text-align: center;
+        width: 338px;
+    }
+   .img-container{
+    flex-direction: column;
+   }
 
 
 
 
-    
+
 }
