@@ -280,6 +280,9 @@ table ,td {
 .calculate-your-bmi{
     width: 577px;
 }
+.calculate-your-bmi p{
+    margin-top: 14px;
+}
 .input-type{
     width: 282.5px;
     color: rgba(255, 255, 255, 0.6);
@@ -300,9 +303,114 @@ option{
 form{
     display: grid;
     gap: 12px;
-    grid-template-columns: 282px 282px;    
+    grid-template-columns: 282px 282px;   
+    margin-top: 34px; 
 }
 .calculate{
     margin-top: 34px;
 }
+/* <!-- Meet Our Team section start codding here --> */
+.team-heading{
+    width: 671px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 88px;
+    margin-bottom: 58px;
+}
+.meet-our-team{
+width: 1060px;
+border-radius: 18px;
+background: rgba(255, 255, 255, 0.1);
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+padding: 20px;
+position: relative;
 
+}
+.meet-our-team img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2);
+}
+.img-name-1{
+    position: absolute;
+    top: 230px;
+    left: 40px;
+    color: #ffffffff;
+    font-weight: 500;
+}
+.img-description-1{
+    position: absolute;
+    top: 260px;
+    left: 40px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.img-name-2{
+    position: absolute;
+    top: 230px;
+    left: 390px;
+    color: #ffffffff;
+    font-weight: 500;
+}
+.img-description-2{
+    position: absolute;
+    top: 260px;
+    left: 390px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.img-name-3{
+    position: absolute;
+    top: 230px;
+    left: 735px;
+    color: #ffffffff;
+    font-weight: 500;
+}
+.img-description-3{
+    position: absolute;
+    top: 260px;
+    left: 735px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.img-name-4{
+    position: absolute;
+    top: 530px;
+    left: 40px;
+    color: #ffffffff;
+    font-weight: 500;
+}
+.img-description-4{
+    position: absolute;
+    top: 560px;
+    left: 40px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.img-name-5{
+    position: absolute;
+    top: 530px;
+    left: 390px;
+    color: #ffffffff;
+    font-weight: 500;
+}
+.img-description-5{
+    position: absolute;
+    top: 560px;
+    left: 390px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.img-name-6{
+    position: absolute;
+    top: 530px;
+    left: 730px;
+    color: #ffffffff;
+    font-weight: 500;
+}
+.img-description-6{
+    position: absolute;
+    top: 560px;
+    left: 730px;
+    color: rgba(255, 255, 255, 0.6);
+}
