@@ -234,3 +234,75 @@ width: 366px;
 height: 312px;
 border-radius: 18px;
 }
+/* <!-- BMI Calculator Codding start here --> */
+.bmi-container{
+    background: rgb(34, 34, 34);
+    justify-content: space-around;
+    /* margin: 88px 0px; */
+    padding-top: 49px;
+    padding-bottom: 52px;
+  
+}
+.bmi-text-area{
+    width: 671px;
+    margin: 0 auto;
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+.bmi-text-area p{
+  margin-top: 14px;
+}
+table{
+width: 310px;
+height: 216px;
+margin-top: 52px;
+}
+.table-title{
+color: rgb(255, 255, 255);
+font-size: 1.75rem;
+font-weight: 900;
+}
+table ,td , th{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: center;
+}
+table , th{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 500;
+}
+table ,td {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .875rem;
+    font-weight: 400;
+}
+.calculate-your-bmi{
+    width: 577px;
+}
+.input-type{
+    width: 282.5px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0px 12px;
+    border: none;
+}
+.select-an-activity-factor{
+    width: 577px;
+}
+option{
+    color: rgba(255, 255, 255, 0.6); 
+}
+form{
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 282px 282px;    
+}
+.calculate{
+    margin-top: 34px;
+}
+
