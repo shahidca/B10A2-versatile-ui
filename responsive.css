@@ -67,6 +67,25 @@ font-size: 2rem;
    .img-container{
     flex-direction: column;
    }
+   /* <!-- Run an Extra Mile Easily style start here --> */
+   .run-an-extra-mile-easily{
+    flex-direction: column;
+    width: 353px;
+    height: 531px;
+   }
+   .run-an-extra-text-container{
+    width: 287px;
+    height: 264px;
+    left: 33px;
+    top: 31px;;
+}
+   .running-img img{
+    width: 287px;
+    height: 170px;
+    left: 33px;
+    top: 326px;
+    margin-top: 31px;
+    }
 
 
 
