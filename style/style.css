@@ -31,6 +31,11 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 24px;
 }
+.title-h2{
+    color: rgb(255, 255, 255);
+font-size: 3rem;
+font-weight: 900;
+}
 
 /* header part style start here */
 .nav-bar{
@@ -39,6 +44,7 @@ align-items: center;
 padding-top: 1rem;
 margin-left: 11.87rem;
 margin-right: 11.87rem;
+padding-top: 57px;
 }
 .nav-title{
 color: rgb(230, 83, 60);
@@ -179,21 +185,17 @@ font-weight: 400;
     margin: 0 auto;
     margin-top: 58px;
 }
-.habit-title{
-    color: rgb(255, 255, 255);
-font-size: 3rem;
-font-weight: 900;
-}
+
 .fitness-img img{
 border-radius: 90px;
 }
 .img-name{
-    color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
 font-size: 1.125rem;
 font-weight: 600;
 }
 .fitness-img{
-    width: 231px;
+width: 231px;
 height: 274px;
 text-align: center;
 }
@@ -204,5 +206,31 @@ margin-top: 10px;
 margin-top: 10px;
 }
 .habit-description{
+margin-top: 14px;
+}
+/* <!-- Run an Extra Mile Easily style start here --> */
+.run-an-extra-mile-easily {
+width: 1060px;
+height: 371px;
+margin: 0 auto;
+border-radius: 18px;
+background: rgb(34, 34, 34);
+margin-top: 62px;
+justify-content: space-around;
+align-items: center;
+}
+.run-an-extra-text-container{
+    width: 443px;
+    height: 290px;
+}
+.run-an-extra-text-container p{
     margin-top: 14px;
+}
+.run-an-extra-text-container button{
+    margin-top: 34px;
+}
+.running-img img{
+width: 366px;
+height: 312px;
+border-radius: 18px;
 }
