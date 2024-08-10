@@ -430,6 +430,45 @@ position: relative;
     left: 730px;
     color: rgba(255, 255, 255, 0.6);
 }
+/* <!-- Get Your Made Dream In Fitness With Us --> */
+.get-your-dream{
+    margin-top: 88px;
+    align-items: center;
+    gap: 100px;
+}
+.get-your-dream p{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.text-box{
+    margin-left: 190px;  
+    width: 700px; 
+}
+.text-box h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.second-dive{
+    margin-right: 190px;
+    position: relative;
+}
+.second-dive img{
+    height: 400px;
+    width: 500px;
+    border-radius: 8px;
+}
+.img-download{
+    color: rgb(255, 255, 255);
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 10px;
+    background: rgb(230, 83, 60);
+    border: none;
+    position: absolute;
+    top: 325px;
+    right: 20px;
+}
 /* footer section style start here */
 footer{
     background: rgba(255, 255, 255, 0.1);

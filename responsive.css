@@ -213,6 +213,26 @@ left: 40px;
         left: 40px;
         color: rgba(255, 255, 255, 0.6);
     }
+    /* <!-- Get Your Made Dream In Fitness With Us --> */
+    .get-your-dream{
+        flex-direction: column;
+    }
+    .text-box{
+        margin-left: 0px;  
+        width: 270px; 
+    }
+    .second-dive img{
+        height: 258px;
+        width: 342px;
+    }
+    .img-download{
+        top: 259px;
+        right: 28px;
+        padding: 10px 20px 10px 20px;
+    }
+    }
+
+
     /* footer section style start here */
     .footer{
         flex-direction: column;
