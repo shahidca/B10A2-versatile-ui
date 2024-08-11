@@ -109,6 +109,8 @@ left: 40px;
     }
     .bmi-text-area{
         width: 353px;
+        text-align: center;
+        margin-bottom: 15px;
     }
     .bmi-calculator-chart{
         margin-left: 30px;
@@ -233,6 +235,7 @@ left: 40px;
     .text-box{
         margin-left: 0px;  
         width: 270px; 
+        margin-bottom: -57px;
     }
     .second-dive{
         margin: 0 auto;
@@ -243,7 +246,7 @@ left: 40px;
     }
     .img-download{
         top: 259px;
-        right: 28px;
+        right: 54px;
         padding: 10px 20px 10px 20px;
     }
     
@@ -269,6 +272,9 @@ left: 40px;
     hr{
         width: 354px;
         margin: 0 auto;
+    }
+    .all-right p{
+        text-align: center;
     }
 
 
